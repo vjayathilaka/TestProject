@@ -4,6 +4,7 @@ public class Subject {
 	private int id;
 	private String subject;
 	private int name;
+	private String auther;
 
 	public int getId() {
 		return id;
@@ -15,6 +16,14 @@ public class Subject {
 
 	public String getSubject() {
 		return subject;
+	}
+
+	public String getAuther() {
+		return auther;
+	}
+
+	public void setAuther(String auther) {
+		this.auther = auther;
 	}
 
 	public void setSubject(String subject) {

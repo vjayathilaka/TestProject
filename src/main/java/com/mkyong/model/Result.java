@@ -7,6 +7,7 @@ public class Result {
 	private String latestY3;
 	private String latestY5;
 	private String latestY7;
+	private String latestY8;
 
 	public String getSchool() {
 		return school;
